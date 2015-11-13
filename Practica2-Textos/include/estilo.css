@@ -1,0 +1,111 @@
+*{
+	margin:0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+#head p{
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	color: #ADADAD;
+}
+#contenedor{
+	background: #F3CEA9;
+	
+}
+
+/*********************************/
+/********** Vertical DERECHA *****/
+#V{
+	float:left;	
+}
+
+/***********************************/
+/********** HORIZONTAL DERECHA *****/
+#D{
+	float:left;	
+}
+
+/*************************************/
+/********** HORIZONTAL IZQUIERDA *****/
+#I{
+	float:right;	
+}
+
+/***************   FIN ****************/
+.ar{
+	margin: 3px;
+	width: 150px;
+	height: 200px;
+	
+}
+
+.arti{
+	background: #E5D3C1;
+	width: 140px;
+	height: 180px;
+	border-style: dashed;
+	
+}
+.ar legend{
+	color: #F1D3B5;
+	text-align: left;
+	width: 70%;
+	margin: 0% 10%;
+	font-size: 18px;
+	padding: 5px;
+	background: #CBA782;
+}
+
+.ar p{
+	padding: 10px;
+	font-size: 12px;
+	text-align: justify;
+}
+
+.ar p:first-letter { 
+	color: #FFF;
+	font-size: 28px;
+	text-transform: uppercase; 
+}
+
+/**************************************************
+***************************************************
+/*  ESTILO BOTONESSSSSSS */
+
+#seccion{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.aa{
+	text-decoration: none;
+}
+
+.botones{
+	float;
+	margin: 0 auto;
+	background: #999;
+	font-size: 14px;
+	color:yellow;
+	padding: 10px;
+	border-radius: 50px;
+	text-decoration: none;
+}
+
+
+.botones:hover{
+	background: #999;
+	font-size: 14px;
+	color:black;
+	text-decoration: none;
+	border-radius: 15px;
+}
+.botones:active{
+	background: #999;
+	font-size: 14px;
+	color:white;
+	text-decoration: none;
+	border-radius: 40px;
+}
