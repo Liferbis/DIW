@@ -1,5 +1,5 @@
 *{
-	width: 100%;
+	width: 1024px;
 	margin: 0;
 	padding: 0;
 }
@@ -8,9 +8,9 @@ html{
 	background: #FCD758;
 }
 
-.body{
+#contenedor{
 	background: #FFFDF2;
-	width: 80%;
+	float: left;
 	margin: 0 auto;
 }
 
@@ -20,63 +20,86 @@ html{
 }
 
 #menu{
-	width: 75%;
-	padding: auto 0;
-	float:left;
-	position: static;
-	font-family:Georgia, "Times New Roman", Times;
+	width: 824px;
+	height: 80px;
+	vertical-align: text-bottom;
+	float:left;	
+	
 }
 
 #menu ul{
-	clear: both;
-	float: left;
+	float:left;	
+	height: 80px;
 	display: inline;
 	list-style: none;
-	margin: 0;
-	padding: 0;
 
 }
-#menu li{
-	float: left;
-	display: inline;
-	width: 25%;
-	height: 100%;
-}
-#menu a{
+#menu li a{
+	font-family:Georgia, "Times New Roman", Times;
+	float:left;	
+	height: 80px;
 	text-decoration: none;
-	color: #FFFDF2;
 	display: inline;
-	float: left;
 	text-align: center;
-	position: relative;
+	vertical-align: text-bottom;
+	width: 206px;
+	color: #FFFDF2;
+}
+
+#menu ul li a:hover {
+	background:#ff6600;
+	height: 75px;
+	border-bottom: 2px #FFFDF2;
+	margin-top:-2px;
+	
 }
 
 #logoo{
 	margin: auto auto;
 	background: #ff6600; 
-	width: 25%;
+	width: 200px;
 	float:right;
-	height: 100%;
+	height: 80px;
 }
 
+#logoo img{
+	margin: auto auto;
+	width: 200px;
+	height: 80px;
+}
 #contenido{
 	background: #FEF1C7;
 	height: 100%;
+	float: left;
 	border-bottom: 2px solid #FCD758;
 }
 
 #cuerpo{
 	width: 75%;	
+	float: left;
 	height: 100%;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 #as{
-	width: 25%;
+	width: 200px;
 	float:right;
 	height: 100%;
 	border: none;
 }
+
+#PortadaPeonza{
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+#PortadaPeonza img{
+	margin: 0 auto;
+	width: 328px;
+	text-align: center;
+}
+
 #peonza{
 
 }
