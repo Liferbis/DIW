@@ -1,6 +1,6 @@
 *{
-	width: 1024px;
-	margin: 0;
+	width: 100%;
+	margin: 0 auto;
 	padding: 0;
 }
 
@@ -9,12 +9,16 @@ html{
 }
 
 #contenedor{
+	width: 1024px;
+	text-align: center;
 	background: #FFFDF2;
-	float: left;
+	float: inherit;
 	margin: 0 auto;
 }
 
 #header{
+	position: relative;
+	margin: 0 auto;
 	background: #F93;
 	float:left;
 }
@@ -35,6 +39,7 @@ html{
 
 }
 #menu li a{
+	vertical-align:bottom;
 	font-family:Georgia, "Times New Roman", Times;
 	float:left;	
 	height: 80px;
@@ -49,9 +54,16 @@ html{
 #menu ul li a:hover {
 	background:#ff6600;
 	height: 75px;
-	border-bottom: 2px #FFFDF2;
+	border-bottom: 2px #FCD758;
 	margin-top:-2px;
 	
+}
+
+.active{
+	background:#ff6600;
+	height: 75px;
+	border-bottom: 2px #FCD758;
+	margin-top:-6px;
 }
 
 #logoo{
@@ -68,8 +80,9 @@ html{
 	height: 80px;
 }
 #contenido{
+	margin: 0 auto;
 	background: #FEF1C7;
-	height: 100%;
+	height: 396px;
 	float: left;
 	border-bottom: 2px solid #FCD758;
 }
@@ -77,34 +90,108 @@ html{
 #cuerpo{
 	width: 75%;	
 	float: left;
-	height: 100%;
+	height: 396px;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 #as{
+	background-image: url("imagenes/fondoDerch.jpg");
 	width: 200px;
 	float:right;
-	height: 100%;
-	border: none;
+	height: 396px;
+	padding-top: 20px;
 }
 
-#PortadaPeonza{
-	margin: 0 auto;
-	width: 100%;
-	text-align: center;
+.bot {
+	margin-left: 20px;
+	text-align: left;
+	height: 40px;
+	border-top: 2px #F93;
+	border-bottom: 2px #F93;
+	display: block;
+	
 }
 
-#PortadaPeonza img{
-	margin: 0 auto;
-	width: 328px;
-	text-align: center;
+.bot a{
+	color: #F93;
+	text-decoration: none;
+}
+
+.bot img{
+	width: 15px;
+	height: 18px;
+}
+
+.arti{
+	width: 768px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0 26px;
+	text-align: justify;
+	color: #FA521A;
+}
+
+.arti h1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: Georgia, "Times New Roman", Times;
+	color: #F93;
+	font-style: normal;
+	font-size: 1.5em;
+}
+
+.arti li{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #F93;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.arti p img{
+	width: 100px;
+	float: left;
+	margin: 5px;
 }
 
 #peonza{
 
 }
 
-#pie{
-	background: #000;
+#PortadaPeonza{
+	margin: 0 auto;
+	width: 1024px;
+	text-align: center;
 }
 
+#PortadaPeonza img{
+	margin: 20px auto;
+	width: 328px;
+	text-align: center;
+}
+
+
+
+#pie{
+	position:relative;
+	height: 103px;
+	margin: 0 auto;	
+	float: left;
+	color: #ff6600;
+}
+
+#pi1{
+	height: 43px;
+	background: #fef1c7;
+	text-align: right;
+	float: right;
+	/*padding: 15px 0 10px 0;
+*/}
+
+#pi2{
+	vertical-align:text-bottom;
+	bottom: 0px;
+	height: 60px;
+	float: right;
+	/*padding-top: 25px;*/
+	background: #FCD758;
+}
