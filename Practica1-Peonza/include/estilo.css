@@ -42,7 +42,8 @@ html{
 	vertical-align:bottom;
 	font-family:Georgia, "Times New Roman", Times;
 	float:left;	
-	height: 80px;
+	padding-top: 60px;
+	/*height: 80px;*/
 	text-decoration: none;
 	display: inline;
 	text-align: center;
@@ -53,7 +54,7 @@ html{
 
 #menu ul li a:hover {
 	background:#ff6600;
-	height: 75px;
+	/*height: 75px;*/
 	border-bottom: 2px #FCD758;
 	margin-top:-2px;
 	
@@ -61,7 +62,7 @@ html{
 
 .active{
 	background:#ff6600;
-	height: 75px;
+	/*height: 75px;*/
 	border-bottom: 2px #FCD758;
 	margin-top:-6px;
 }
@@ -103,11 +104,12 @@ html{
 }
 
 .bot {
-	margin-left: 20px;
+	width: 160px;
+	margin: 20px;
 	text-align: left;
 	height: 40px;
-	border-top: 2px #F93;
-	border-bottom: 2px #F93;
+	border-top: solid 2px #F93;
+	border-bottom:solid  2px #F93;
 	display: block;
 	
 }
@@ -153,8 +155,8 @@ html{
 	margin: 5px;
 }
 
-#peonza{
-
+.acc{
+	background: #FEF1C7;
 }
 
 #PortadaPeonza{
