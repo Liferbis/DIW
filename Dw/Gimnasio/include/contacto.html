@@ -2,15 +2,17 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Documento sin título</title>
+<title>POXY</title>
 <link href="estilo.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="formulario.js"></script>
+
 </head>
 
 <body>
 
 <div class="container">
   <div class="header">
-  	<h1>POXY</h1>
+  	<h1>POXY <span id="tex">EL GIM SOLO PARA MUJERES</span></h1>
   	<nav id="menu">
     	<ul>
         	<li><a href="../index.html" > HOME </a>|</li>
@@ -23,16 +25,47 @@
   </div>
   <!-- end .header -->
   
-  <div class="content">
-    <h1>Instrucciones</h1>
-    <p>Cuántas veces has escuchado que cierto servicio es un <strong>nuevo concepto</strong> y al final te has encontrado más de lo mismo. En Poxy no lo vamos a decir, pero estamos seguros de que te lo vas a encontrar, porque desde que entres por la puerta notarás aspectos totalmente diferentes a los que has visto hasta la fecha en otros centros similares. No te lo vamos a contar para que lo descubras tú mismo.</p>
-    <p><strong>El cliente es el protagonista</strong> es otra de las expresiones que también estás cansado de oír y, sin embargo, cuando realmente necesitas que te lo demuestren, te has sentido como un número más. Poxy eleva ese concepto a la máxima expresión, porque tú serás el protagonista durante el proceso de inscripción, gestionarás tu propio entrenamiento en función de tus necesidades y preferencias y, por supuesto, te sentirás único, porque elegirás un <strong>coach</strong> que gestionará tu pertenencia al club desde el primer día, te guiará en tu entrenamiento y resolverá tus problemas durante toda estancia con nosotros.</p>
-    <p>Seremos <strong>la compra más inteligente</strong> que harás en tu vida, porque queremos que disfrutes del fitness por lo que realmente cuesta. No queremos cobrarte por servicios que no usarás, y por eso podemos ofrecerte un precio inigualable. Somos sólo fitness, sin embargo el mejor fitness.</p>
+  <div class="content" id="formularioC">
+    <h1>Formulario de contacto</h1>
+    <div>
+    <form action="" name="formula" id="fom">
+    <div>Cuentanos tu opinión</div>
+		<div >
+			<label >Elige una opción:</label>
+			<select name="sele" id="input">
+				<option value="incidencia">Incidencia</option>
+				<option value="sugerencia">Sugerencia</option>
+				<option value="opinion">Opinion</option>
+			</select>
+		</div>
+        </br>
+		<div >
+			<textarea type="textarea" id="textar" placeholder="Introduce tu texto"></textarea>
+		</div></br>
+		<button type="button" id="btn" onclick="envia()">Enviar</button>
+    </form>
+    </div>
+    <div>
+    
+    </div>
     <h2>&nbsp;</h2>
     <!-- end .content --></div>
   <div class="footer">
-    <p>Pie de página</p>
-    <!-- end .footer --></div>
+  	
+    	
+        	 <p>Telefono:
+             	<a href="tel:+34666666999">
+                	666666999
+                </a>
+             </p>
+    		 <p>E-mail:
+             	<a href="mailto:someone@example.com">
+                	someone@example.com
+				</a>
+			</p>
+        
+   
+  <!-- end .footer --></div>
   <!-- end .container --></div>
 </body>
 </html>

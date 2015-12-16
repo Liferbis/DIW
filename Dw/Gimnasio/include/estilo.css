@@ -5,6 +5,7 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #000;
+	background-image: url(imagen/Sin%20t%C3%ADtulo-1.jpg);
 }
 #Insert_logo{
 	width:100%;
@@ -20,10 +21,10 @@ ul, ol, dl { /* Debido a las diferencias existentes entre los navegadores, es re
 	padding-left:0px;
 }
 h1, h2, h3, h4, h5, h6, p {
-	margin-top: 0;	 /* la eliminación del margen superior resuelve un problema que origina que los márgenes escapen de la etiqueta div contenedora. El margen inferior restante lo mantendrá separado de los elementos de que le sigan. */
 	padding-right: 15px;
 	padding-left: 15px; /* la adición de relleno a los lados del elemento dentro de las divs, en lugar de en las divs propiamente dichas, elimina todas las matemáticas de modelo de cuadro. Una div anidada con relleno lateral también puede usarse como método alternativo. */
 	color: #000;
+	margin: 0;
 }
 a img { /* este selector elimina el borde azul predeterminado que se muestra en algunos navegadores alrededor de una imagen cuando está rodeada por un vínculo */
 	border: none;
@@ -31,11 +32,11 @@ a img { /* este selector elimina el borde azul predeterminado que se muestra en 
 
 /* ~~ La aplicación de estilo a los vínculos del sitio debe permanecer en este orden (incluido el grupo de selectores que crea el efecto hover -paso por encima-). ~~ */
 a:link {
-	color: #333333;
+	color: #9CF;
 	text-decoration: none; /* a no ser que aplique estilos a los vínculos para que tengan un aspecto muy exclusivo, es recomendable proporcionar subrayados para facilitar una identificación visual rápida */
 }
 a:visited {
-	color: #333333;
+	color: #9CF;
 	text-decoration: none;
 }
 a:hover, a:active, a:focus { /* este grupo de selectores proporcionará a un usuario que navegue mediante el teclado la misma experiencia de hover (paso por encima) que experimenta un usuario que emplea un ratón. */
@@ -69,8 +70,10 @@ a.active{
 
 /* ~~no se asigna una anchura al encabezado. Se extenderá por toda la anchura del diseño. Contiene un marcador de posición de imagen que debe sustituirse por su propio logotipo vinculado~~ */
 .header {
-	background-color: #6F7D94;
+	/*background-color: #000;*/
+	background-image: url(imagen/foo.jpg);
 	color: #ff458f;
+	height: 100px;
 }
 
 /* ~~ Esta es la información de diseño. ~~ 
@@ -81,7 +84,12 @@ a.active{
 .content {
 	padding: 10px 0;
 }
-
+#tabla{
+	margin: 0;
+	width:762px;
+	height:184px;
+	border:solid 1 px;	
+}
 /* ~~ Este selector agrupado da espacio a las listas del área de .content ~~ */
 .content ul, .content ol { 
 	padding: 0 15px 15px 40px; /* este relleno reproduce en espejo el relleno derecho de la regla de encabezados y de párrafo incluida más arriba. El relleno se ha colocado en la parte inferior para que el espacio existente entre otros elementos de la lista y a la izquierda cree la sangría. Estos pueden ajustarse como se desee. */
@@ -90,9 +98,28 @@ a.active{
 /* ~~ El pie de página ~~ */
 .footer {
 	padding: 10px 0;
-	background-color: #6F7D94;
+	
+	color: #FF458F;
+	background-image: url(imagen/foo.jpg);
+	
+}
+.footer p{
+	color: #FF458F;
+	
 }
 
+.der{
+	text-aling:left;
+}
+
+.izq{
+	text-aling:right;
+}
+
+#imF{
+	width:76 px;
+	height:76 px;
+}
 /* ~~ clases float/clear varias ~~ */
 .fltrt {  /* esta clase puede utilizarse para que un elemento flote en la parte derecha de la página. El elemento flotante debe preceder al elemento junto al que debe aparecer en la página. */
 	float: right;
@@ -137,11 +164,54 @@ a.active{
 	filter: FlipH; /* Internet Explorer */
 	float:left;
 }
+
+#imC{
+float:right;
+}
+
 .im{
-	width:80%;
-	margin: 0 auto;
+	width:50%;
+	margin: 0 270px;
 	text-align:center;
 }
-#a1{
-	float:right;
+
+#tex {
+	color:#9CF;
+	
+	font-size: 12px;
+}
+
+.imag{
+	text-align: center
+}
+
+#hor {
+	text-align: center;
+	margin: 0px auto;
+}
+
+#formularioC{
+	background-image:url(imagen/mujer.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+#fom{
+	
+	margin-left: 20px;
+}
+
+#textar{
+	height:99px;
+	width:450px;
+}
+
+#ventanita{
+	text-align:center;
+	
+	background: #9CF;
+}
+
+#ventanita h3{
+	color:#ff458f;
 }

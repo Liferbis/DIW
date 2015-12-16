@@ -1,0 +1,178 @@
+/* Css  Lidia Fernandez Fernandez*/
+
+/*  Inicio para toda la página  */
+*{
+	width: 900px;
+	margin: 0 auto;
+	padding: 0;
+	
+}
+/*  FINN para toda la página  */
+
+
+/*  Inicio para todo el contenido web  */
+body{
+	font-family:  Arial;
+	font-size: 13px;
+	color: #660000;
+	background: #fdd5d5;
+	width: 900px;
+	float: inherit;
+}
+/*  FINN para todo el contenido web  */
+
+/***************************************/
+/**********     HEADER         *********/
+/***************************************/
+
+/*  Inicio para CABECERAAA*/
+#cabecera{
+	color: #FFF;
+	width: 900px;
+	height: 100px;
+	float: left;
+	position: relative;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-image: url("imghead.gif");
+}
+/*  FINN CABECERAAA  */
+
+
+/*  CABECERAAA - logo */
+#logo{
+	width: 450px;
+	height: 80px;
+	padding-top:20px;
+	float: left;
+}
+
+
+#logo h1, #logo p {
+	width: 430px;
+	
+	padding-left: 20px;
+}
+/*  FINN CABECERAAA - logo  */
+
+/*  CABECERAAA - menu */
+#menu{
+	width: 450px;
+	height: 100px;
+	float: right;
+	display: block;
+	vertical-align: center;
+	text-align: left;
+}
+
+#menu ul{
+	float:left;	
+	height: 100px;
+	display: inline;
+	list-style: none;
+}
+
+#menu li a{
+	/*vertical-align:bottom;*/
+	/*font-family:Georgia, "Times New Roman", Times;*/
+	float:left;	
+	color: #FFF;
+	padding-top: 30px;
+	height: 100px;
+	text-decoration: none;
+	display: inline;
+	text-align: center;
+	vertical-align: center;
+	width: 112px;
+	/*color: #FFFDF2;*/
+}
+
+/*  FINN CABECERAAA - menu  */
+
+/***************************************/
+/**********     CONTENIDO      *********/
+/***************************************/
+
+/*  Inicio para  CONTENIDO*/
+#contenido{
+	width: 900px;
+	float:left;
+	text-align: center;
+	margin:0 auto;
+	padding-top: 30px;
+	margin-bottom: 20px;
+}
+/*  FINN CONTENIDO  */
+
+/*  Inicio para PARTE IZQUIERDA*/
+#izquierda{
+	width:278px;
+	background: #FFF;
+	float:left;
+	text-align: left;
+	border: solid 1px #a32626;
+	padding-left: 50px;
+	list-style: none;
+}
+
+.item, .item h2, .aparece li, .me {
+	width: 280px;
+	margin: 0px;
+	list-style: none;
+}
+.aparece{
+	width: 240px;
+	padding-left: 40px;
+}
+
+.aparece li{
+	text-align: left;
+	list-style-type: circle;
+	color:#660000;
+}
+
+.aparece a, .links a {
+	color:#660000;
+}
+
+.item img{
+	width: 128px;
+	height: 128px;
+}
+/*  FINN para PARTE IZQUIERDA*/
+
+/*  Inicio para PARTE DERECHA TEXTO*/
+#cuerpo{
+	width: 540px;
+	padding-left: 30px;
+	float:right;
+}
+
+.title{
+	width: 540px;
+	text-align: left;
+	border-bottom: solid 1px #000;
+}
+.post, .title, .byline, .entry, .entry p, .meta, .links{
+	width: 540px;
+	text-align: left;
+}
+/*  FINN para PARTE DERECHA TEXTO*/
+
+/***************************************/
+/**********       PIEE         *********/
+/***************************************/
+#pie{
+	width: 900px;
+	height: 50px;
+	text-align: center;
+	margin-bottom: 30px;
+	background-image: url("imgfoot.gif");
+	color:#FFF;
+	float: left;
+	clear: both;
+}
+/*HIPERVINCULO QUE HAY EN EL PIE*/
+#pie a{
+	color:#FFF;
+}
